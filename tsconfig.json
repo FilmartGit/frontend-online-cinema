@@ -14,7 +14,18 @@
     "jsx": "react-jsx",
     "incremental": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/components/*": ["./application/components/*"],
+      "@/ui/*": ["./application/components/ui/*"],
+      "@/screens/*": ["./application/components/screens/*"],
+      
+      "@/hooks/*": ["./application/hooks/*"],
+      "@/config/*": ["./application/config/*"],
+      "@/shared/*": ["./application/shared/*"],
+      "@/services/*": ["./application/services/*"],
+      "@/utils/*": ["./application/utils/*"],
+      "@/store/*": ["./application/store/*"],
+      "@/assets/*": ["./application/assets/*"],
     }
   },
   "include": [
